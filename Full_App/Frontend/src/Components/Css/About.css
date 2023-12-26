@@ -1,0 +1,55 @@
+.About-page {
+  margin: 3rem auto;
+  box-shadow: 0 0 0.5rem #ccc;
+  max-width: 55rem;
+  /* min-width: 16rem; */
+  padding: 4rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.About-page img {
+  border-radius: 0.5rem;
+}
+
+.About-page-info {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.person_info li {
+  margin: 0.7rem 0;
+  margin-top: 0;
+  list-style-type: none;
+}
+
+.person_info #web {
+  color: blueviolet;
+}
+
+.person_info p span {
+  font-weight: 600;
+}
+
+.person_list p {
+  color: rgb(96, 96, 235);
+  font-weight: 500;
+}
+
+.about_me {
+  margin-top: 2rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.about_me::before {
+  content: "";
+  width: 3.1rem;
+  height: 2px;
+  background: rgb(45, 107, 238);
+  position: absolute;
+  bottom: -0.5rem;
+}

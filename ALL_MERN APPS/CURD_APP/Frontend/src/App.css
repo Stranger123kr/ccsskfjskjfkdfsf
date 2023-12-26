@@ -1,0 +1,26 @@
+.add-btn {
+  text-align: right;
+}
+
+@media (width <= 1000px) {
+  .d-flex {
+    gap: 1rem;
+  }
+}
+
+@media (width <= 800px) {
+  .Main_row_2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+  .Main_row_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0rem;
+  }
+
+  .d-flex {
+    gap: 1rem;
+  }
+}

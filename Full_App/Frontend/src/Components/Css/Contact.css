@@ -1,0 +1,79 @@
+.contact_container {
+  padding: 2rem;
+}
+
+.contact_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact_card_list {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  width: 20rem;
+  min-width: 17rem;
+  padding: 0.6rem 2.2rem;
+  box-shadow: 0 0 0.5rem #ccc;
+  background: #ffffff;
+}
+
+.contact_icon {
+  font-size: 1.5rem;
+  color: rgb(68, 128, 240);
+}
+
+.contact_info p {
+  margin: 0.2rem;
+  font-weight: 600;
+}
+.contact_info span {
+  color: #e07c7c;
+}
+
+/* ============================= */
+
+.contact-form {
+  max-width: 55rem;
+  min-width: 17rem;
+  margin: auto;
+  padding: 3rem;
+  box-shadow: 0 0 0.5rem #ccc;
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.contact-form h2 {
+  margin-bottom: 2rem;
+}
+
+.contact_felids {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-form-group input {
+  box-shadow: 0 0 0.3rem #ccc;
+  border: none;
+  background: #f8f9fa;
+  outline: none;
+  padding: 0.7rem 0.7rem;
+  font-weight: 400;
+}
+
+.contact_message textarea {
+  height: 10rem;
+  box-shadow: 0 0 0.3rem #ccc;
+  border: none;
+  background: #f8f9fa;
+  outline: none;
+  padding: 0.7rem 0.7rem;
+  font-weight: 400;
+}

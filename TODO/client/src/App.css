@@ -1,0 +1,47 @@
+/* ----------------------------------------------------  */
+
+/* navbar css */
+
+.nav-btn {
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 0.6rem;
+  color: #fff !important;
+}
+
+li {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* ---------------------------------------------------- */
+
+/* home page css */
+
+.home {
+  height: 100vh;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------- */
+
+/* todo css  */
+
+.todo-inputs {
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.35);
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+}
+.todo-inputs input,
+textarea {
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+  padding-bottom: 0.5rem;
+}
+
+.addBtn {
+  border: none;
+  padding: 0.5rem;
+  width: 10%;
+}

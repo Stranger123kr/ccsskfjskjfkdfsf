@@ -1,0 +1,16 @@
+.home-div {
+  text-align: center;
+  margin: 10rem auto;
+  z-index: 999;
+}
+
+.home-div p {
+  color: rgb(84, 84, 245);
+  font-weight: 600;
+  font-size: large;
+}
+
+.home-div h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}

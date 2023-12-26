@@ -1,0 +1,22 @@
+.container {
+  max-width: 114rem;
+  padding: 2.2rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 3.1rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-brand {
+  font-size: 3rem;
+  font-weight: 500;
+}

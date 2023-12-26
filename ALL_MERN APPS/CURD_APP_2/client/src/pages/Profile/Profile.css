@@ -1,0 +1,19 @@
+.card-profile {
+  background: #f3fcff;
+  border-radius: 0.8rem;
+  border: none;
+  box-shadow: 0 0 0.2rem #d4c0c0;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile_info h4 {
+  margin-top: 0.6rem;
+}
+
+hr {
+  border: 1px solid #bc9d9d;
+}

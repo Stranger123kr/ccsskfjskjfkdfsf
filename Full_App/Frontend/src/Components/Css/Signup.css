@@ -1,0 +1,39 @@
+.container {
+  max-width: 50rem;
+}
+
+.signup-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  box-shadow: 0 0 0.5rem #ccc;
+  border-radius: 1rem;
+  padding: 2rem;
+  background: #ffffff;
+}
+
+.form-title {
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 0.7rem 0.2rem;
+  font-weight: 400;
+}
+
+.zmdi {
+  padding-right: 0.5rem;
+}
+
+.signup-image-link {
+  text-decoration: none;
+  color: red;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

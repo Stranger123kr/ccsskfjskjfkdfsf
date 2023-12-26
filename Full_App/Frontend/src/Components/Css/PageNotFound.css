@@ -1,0 +1,29 @@
+.PageNotFound {
+  background-color: #fce7e4;
+  position: relative;
+}
+.PageNotFound img {
+  width: 100%;
+  margin-top: 3.5rem;
+  height: 80vh;
+  object-fit: contain;
+}
+
+.PageNotFound .link {
+  background: #ffffff;
+  border-radius: 0.7rem;
+  text-align: center;
+  box-shadow: 0 0 0.2rem #ccc;
+  padding: 1rem;
+  position: absolute;
+  top: 3rem;
+  transform: translateX(50%);
+  right: 50%;
+  top: 10%;
+  font-weight: 600;
+}
+
+.PageNotFound .link a {
+  text-decoration: none;
+  color: red;
+}

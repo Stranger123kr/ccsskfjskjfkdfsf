@@ -1,0 +1,39 @@
+.services_container {
+  padding: 2.2rem 12rem;
+}
+
+.services_container h2 {
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+}
+.services_container h2::first-letter {
+  font-size: 3rem;
+}
+
+.services_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.7rem;
+}
+
+.cards {
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3);
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.cards img {
+  /* aspect-ratio: 1/1; */
+  padding: 0.5rem 1rem;
+}
+
+.card_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
